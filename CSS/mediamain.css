@@ -1,0 +1,259 @@
+@media (max-width: 1263px) {
+    .benefits-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-left: 40px;
+    }
+    .benefits-cards{
+        grid-column-gap: 30px;
+    }
+    .benefits-card{
+        width: 300px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 1143px) {
+    .header-violet {
+        font-size: 50px;
+    }
+    .benefits-container{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1069px) {
+    .benefits-container{
+        padding-bottom: 0;
+        height: 500px;
+    }
+    .benefits-card{
+        width: 250px;
+        height: 300px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .benefits-img{
+        margin: 10px 10px 10px 90px; 
+    }
+    .stage-header{
+        font-size: 16px;
+    }
+    .stage-text{
+        font-size: 14px;
+    }
+    .stages-all{
+        grid-column-gap: 100px;
+    }
+}
+@media (max-width: 973px) {
+    .header-heading{
+        font-size: 36px;
+    }
+    .header-violet{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .nav-list__item {
+        margin-right: 40px;
+      }
+}
+@media (max-width: 973px) {
+    .benefits-card{
+        width: 100%;
+        height: 100%;
+    }
+    .nav__logo{
+        margin-right: 20px;
+    }
+    body{
+        font-size: 14px;
+    }
+}
+@media (max-width: 883px) {
+
+    .nav {
+        display: none;
+    }
+
+    .header-violet{
+        font-size: 36px;
+        margin-top: 0px;
+    }
+    .kids-img1{
+        display: none;
+    }
+    .kids-img2{
+        display: none;
+    }
+    .kids-img3{
+        display: none;
+    }
+    .kids-img4{
+        display: none;
+    }
+    .kids-img5{
+        display: none;
+    }
+    .kids-img6{
+        display: none;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .diagnostics-content {
+        margin-left: 20px;
+      }
+    .consult-header {
+        margin-left: 50px;
+        font-size: 16px;
+    }
+    .consult-text {
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    
+}
+@media (max-width: 800px) {
+    .stages-all {
+        display: block;
+    }
+    .stage-last{
+        grid-column: span 1;
+    }
+    .benefits-container{
+        padding-top: 0px;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+    .benefits-title{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .benefits-cards{
+        display: block;
+        
+    }
+    .benefits-card{
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .benefits-img{
+        margin: 10px 10px 10px 20px;
+    }
+    .diagnostics {
+        
+    }
+    .diagnostics-content {
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .diagnostics-form{
+        margin-bottom: 20px;
+    }
+    .consult-header{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .header-content{
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: right;
+    }
+    .header-heading{
+        font-size: 32px;
+        line-height: 1.4;
+        }
+    .header-violet{
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    .free {
+        font-size: 20px;
+    }
+    .footer-all{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .footer-logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-contacts{
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .footer-dev{
+        text-align: center;
+    }
+    .dev-name {
+        text-align: center;
+        font-size: 16px;
+    }
+    .footer-contacts__text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 737px) {
+        .header-violet{
+            font-size: 24px;
+        }
+}
+@media (max-width: 610px) {
+        .nav__logo{
+            text-align: center;
+        }
+        .header-row{
+            display: block;
+        }
+        .header-img__photo{
+            display: none;
+        }
+        .benefits-container{
+            transform: translateY(-10%);
+            margin-bottom: 120px;
+        }
+        .header-content{
+            margin-top: 100px;
+            margin-bottom: 300px;
+        }
+       
+        
+        .diagnostics-content{
+            margin-left: 20px;
+        }
+        .diagnostics-form{
+            margin-left: 0;
+        }
+        .form-btn {
+            
+        }
+        .social-pic{
+            margin-right: 40px;
+        }
+
+        .social-img{
+            margin-bottom: 20px;
+            margin-right: 5px;
+ 
+        }
+        .benefits {
+            transform: translateY(-20%);
+            background: url(/IMG/detskii-fon-2.jpg);
+        }
+}
+
+

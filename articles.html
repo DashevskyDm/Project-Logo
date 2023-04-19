@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/mediaarticles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;700;800&family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+    <title>Статті</title>
+</head>
+<body>
+    <header class="header" id="header">
+       <div class="container">
+        <div class="header-nav">
+            <a class="nav__logo" href="index.html"> <img class="nav__logo-img" src="/IMG/logopom.png" alt="">
+            </a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="/aboutme.html">Про мене</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="/articles.html">Обстеження</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="/games.html">Ігри</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link js-scroll" href="#contactsId">Контакти</a>
+                    </li>
+                    <a class="btn-link popup-link" href="#popup"><button class="header-btn">Консультація</button></a>
+                </ul>
+            </nav>
+        </div>
+        <div class="articles">
+            <div class="articles-box">
+                <iframe class="video__element" src="https://www.youtube.com/embed/Ymwgq-K0pOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="articles-box">
+                <iframe class="video__element" src="https://www.youtube.com/embed/3LYvxxs35AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="articles-box"></div>
+        </div>
+    </div>
+
+        
+    </header>
+
+    
+  
+
+    <section class="contacts" id="contactsId">
+        <div class="container">
+            <div class="contacts-mail">
+            <h2 class="contacts-header">Контакти</h2>
+            <p class="contacts-text">Якщо є додаткові питання Ви можете <br> відправити листа мені на пошту:</p>
+            <div class="contacts-button">
+            <a class="contacts-btn" href="#!">Send message</a>
+                </div>
+            </div>
+
+            <div class="contacts-social">
+                <h3 class="contacts-social__header">Мої соціальні мережі:</h3>
+                <div class="contacts-social__pic">
+                <a class="social-pic" href="#!"><img src="/IMG/inst.png" alt="" class="social-img"></a>
+                <a class="social-pic" href="#!"><img src="/IMG/telegram.png" alt="" class="social-img"></a>
+                <a class="social-pic" href="#!"><img src="IMG/facebook.png" alt="" class="social-img"></a>
+                <a class="social-pic" href="#!"><img src="IMG/viber.png" alt="" class="social-img"></a>
+                </div>  
+                <p class="contacts-social__text">Пишіть мені у Instagram, Telegram, Facebook, Viber</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-all">
+                <div class="footer-logo"><a href="#header">
+                <img  src="/IMG/logopom2.jpg" alt="logopom" class="footer-logo__pic">
+            </a></div>
+                <div class="footer-contacts">
+                <p class="footer-contacts__text">+380507741479 <br>
+                    sendmessage@gmail.com <br>
+                    Пн-Пт: з 9:00 до 19:00</p>
+            </div>
+                 <div class="footer-dev">
+                <p class="dev-name">Розробник порталу: <br> D.Dashevsky</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup">X</a>
+                <div class="popup__form">
+                    <h3 class="form-header-popup">Записатися для консультації</h3>
+                    <form class="form popup-form" action="#">
+                    <label for="#">Ваше ім'я</label>
+                    <input class="form-input popup-input" type="text">
+                    <label for="#">Ваш телефон</label>
+                    <input class="form-input popup-input" type="text">
+                    <button class="form-btn button popup__form-btn" type="submit">Зв'язатися</button>
+                </form>
+                </div>
+        </div>
+    </div>
+    </div>
+    <script src="/JS/script.js"></script>
+
+</body>
+</html>
